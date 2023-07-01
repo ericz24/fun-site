@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html id = "backgroundcolor">
+	<head>
+		<title>Math Site</title>
+			<link rel = "stylesheet" href = "styles.css">
+			<script src = "script.js"></script>
+	</head>
+	<body>
+		<h1>Math Site</h1>
+		
+		<div>
+			<div class = "streakDesign">
+				<h1 id = "streakDisplay">Streak: 0 </h1>
+			</div>
+			
+			<div class = "totalQuestionDesign">
+				<h1 id = "totalQuestions">Questions: 0 </h1>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div id = "bigBox">
+			
+			<div class = "num1Digit1">
+				<p style="font-size:400%;" id = "n1n1"> 0 </p>
+			</div>
+		
+			<div class = "num1Digit2">
+				<p style="font-size:400%;" id = "n1n2"> 0 </p>
+			</div>
+			
+			
+			<div class = "signsScrollBox" onscroll = "consoleLog();" id = "signsScrollBox">
+				<div>+</div>
+			    <div>-</div>
+			    <div>×</div>
+			    <div>÷</div>
+			</div>
+			
+			
+			
+			
+		
+			<div class = "num2Digit1">
+				<p style="font-size:400%;" id = "n2n1"> 0 </p>
+			
+			</div>
+		
+			<div class = "num2Digit2">
+				<p style="font-size:400%;" id = "n2n2"> 0 </p>
+			</div>
+			
+		</div>	
+			
+		<div>
+			<input class = "answer" id = "userInput" type = "number">
+			<!-- <input style="background-color:hsla(9, 100%, 64%, 0.5);" class = "answer" id = "userInput" type = "number"> -->
+			
+			<div class = "check" onclick = "checkAnswer();">
+				<input type = "button" class = "checkShape" value = "CHECK">
+			</div>
+			
+			<!-- <div class = "next" onclick = "nextNums();">
+				<input type = "button" class = "nextShape" value = "NEXT">
+			</div> -->
+		</div>
+			
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+	</body>
+	
+	
+</html>
